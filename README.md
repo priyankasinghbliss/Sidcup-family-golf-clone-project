@@ -1,0 +1,1 @@
+# This is a Sidclub Family Golf Club website clone.
