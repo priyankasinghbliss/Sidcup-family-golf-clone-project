@@ -63,7 +63,7 @@ h4all.forEach(function(elem){
 */
 
 /* Navbar Hover Effects */
-document.querySelectorAll("#nav h4").forEach((elem) => {
+document.querySelectorAll("#nav h4, #arrow, .card, .elem, #footer a, #footer i, #footer b, #image img").forEach((elem) => {
     elem.addEventListener("mouseenter", function () {
         gsap.to(crsr, {
             pointerEvents: "none",
