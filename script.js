@@ -165,10 +165,10 @@ document.querySelectorAll(".card").forEach(card => {
 });
 
 gsap.from("#comma1",{
-    y:-70,
-    x:-70,
+    y:-50,
+    x:-50,
     scrollTrigger:{
-        trigger:"#comma1",
+        trigger:"#comma1", //Trigger comma1 in both
         scroller:"body",
         //markers :true,
         start:"top 55%",
@@ -178,14 +178,41 @@ gsap.from("#comma1",{
 });
 
 gsap.from("#comma2",{
-    y:70,
-    x:70,
+    y:50,
+    x:50,
     scrollTrigger:{
-        trigger:"#comma2",
+        trigger:"#comma1", //Trigger comma1 in both
         scroller:"body",
         //markers :true,
         start:"top 55%",
         end:"top 45%",
         scrub:4
+    }
+});
+
+
+/*gsap.from(["#comma1", "#comma2"], {
+    y: (index) => (index === 0 ? -50 : 50), // Different y values for each
+    x: (index) => (index === 0 ? -50 : 50), // Different x values for each
+    scrollTrigger: {
+        trigger: "#comma1", // Use a single trigger
+        scroller: "body",
+        //markers: true,
+        start: "top 55%",
+        end: "top 45%",
+        scrub: 3
+    }
+});
+*/
+
+gsap.from("#page4 h1",{
+    y:50,
+    scrollTrigger:{
+        trigger:"#page4 h1",
+        scroller:"body",
+        //markers :true,
+        start:"top 75%",
+        end:"top 70%",
+        scrub:2
     }
 });

@@ -372,16 +372,78 @@ video{
 
 #page3 img{
     position: absolute;
-    height: 48px;
+    height: 47px;
 }
 
 #page3 #comma1{
     left:16%;
-    top: 15%;
+    top: 16%;
 }
 
 #page3 #comma2{
     right:16%;
-    bottom: 15%;
+    bottom: 16%;
+}
+
+#page4{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+#page4 h1{
+    font-size: 88px;
+    position: absolute;
+    font-weight: 900;
+    top: 25px;
+    font-family: gilroy;
+    -webkit-text-stroke: 1px #fff;
+    color: #000;
+}
+
+.elem{
+    height: 45%;
+    width: 27%;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+}
+
+.elem h2{
+    height: 100%;
+    width: 100%;
+    background-color: #95C11E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    z-index: 10;
+    transition: all ease 0.5s;
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+    scale: 1.1;
+}
+
+.elem:hover h2{
+    color: #fff;
+    background-color: transparent;
+}
+
+.elem:hover img{
+    scale: 1;
 }
 
