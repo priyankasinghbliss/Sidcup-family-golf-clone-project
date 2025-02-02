@@ -71,7 +71,7 @@ document.querySelectorAll("#nav h4").forEach((elem) => {
             border: "1px solid #fff",
             backgroundColor: "transparent",
             duration: 0.2,
-            ease: "power2.out"
+            ease: "power3.out"
         });
     });
 
@@ -82,7 +82,7 @@ document.querySelectorAll("#nav h4").forEach((elem) => {
             border: "1px solid #95C11E",
             backgroundColor: "#95C11E",
             duration: 0.2,
-            ease: "power2.out"
+            ease: "power3.out"
         });
     });
 });
