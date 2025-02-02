@@ -41,7 +41,9 @@ Sidcup-family-golf-clone/
 3. **Open `index.html` in a Browser**
 
 ## 📸 Screenshots
+## Home Page
 ![1](https://github.com/user-attachments/assets/2d15a732-32e6-47c2-b65c-7442d791cdcd)
+## Footer section
 ![2](https://github.com/user-attachments/assets/2564116f-ebfd-4dca-8b8c-141d21720f45)
 
 ## 🛠️ Improvements & Future Enhancements
