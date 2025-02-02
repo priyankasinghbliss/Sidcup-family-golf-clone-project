@@ -8,7 +8,6 @@ This project is a **clone** of the official **Sidcup Family Golf** website, buil
 ## 🚀 Features
 - **GSAP Animations** for smooth transitions and interactive elements.
 - **Custom Cursor Effects** with dynamic scaling and color changes.
-- **Responsive Design** ensuring seamless viewing across devices.
 - **Parallax Scrolling Effects** to enhance user experience.
 - **Navigation Hover Effects** for an interactive UI.
 
@@ -58,4 +57,5 @@ For any queries or feedback, connect with me on **[LinkedIn](https://www.linkedi
 
 ---
 ✨ **Developed by Priyanka Singh** ✨
+## Credit to Sheriyan's Coding School
 
