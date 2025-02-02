@@ -112,3 +112,80 @@ gsap.to("#main",{
         scrub : 2
     }
 });
+
+gsap.from("#about-us img, #about-us-in",{
+    y:90,
+    opacity:0,
+    duration:1,
+    stagger:0.4,
+    scrollTrigger:{
+        trigger:"#about-us",
+        scroller:"body",
+        //markers :true,
+        start:"top 80%",
+        end:"top 50%",
+        scrub:2
+    }
+});
+
+// Set the initial state with GSAP
+gsap.set(".card", { scale: 0.9, opacity: 0 });
+
+gsap.to(".card", {
+    scale: 1, // Restoring scale on scroll
+    opacity: 1,
+    duration: 1,
+    stagger: 0.2,
+    scrollTrigger: {
+        trigger: ".card",
+        scroller: "body",
+        start: "top 70%",
+        end: "top 65%",
+        scrub: 1
+    }
+});
+
+// Handle hover effect with GSAP (instead of CSS)
+document.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("mouseenter", () => {
+        gsap.to(".card", { 
+            rotateX: -10, 
+            rotateY: 10, 
+            duration: 0.2 
+        });
+    });
+
+    card.addEventListener("mouseleave", () => {
+        gsap.to(".card", { 
+            rotateX: 0, 
+            rotateY: 0, 
+            duration: 0.2 
+        });
+    });
+});
+
+gsap.from("#comma1",{
+    y:-70,
+    x:-70,
+    scrollTrigger:{
+        trigger:"#comma1",
+        scroller:"body",
+        //markers :true,
+        start:"top 55%",
+        end:"top 45%",
+        scrub:4
+    }
+});
+
+gsap.from("#comma2",{
+    y:70,
+    x:70,
+    scrollTrigger:{
+        trigger:"#comma2",
+        scroller:"body",
+        //markers :true,
+        start:"top 55%",
+        end:"top 45%",
+        scrub:4
+    }
+});
