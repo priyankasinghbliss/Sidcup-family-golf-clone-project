@@ -397,6 +397,83 @@ video{
     transform: scaleX(-1);
 }
 
+#slideshow{
+    height: 90vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 0 50px;
+}
+
+#slideshow > img{
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    left: 9%;
+    bottom: 0;
+    z-index: 1;
+}
+
+#slides{
+    height: 75%;
+    width: 45%;
+    border-radius: 15px;
+    z-index: 9;
+    overflow: hidden;
+}
+
+#slides img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#content{
+    height: 70%;
+    width: 38%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 9;
+}
+
+#content h3{
+    font-size: 55px;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#content p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 38px; 
+}
+
+#content button{
+    height: 52px;
+    width: 200px;
+    border-radius: 50px;
+    border: 3px solid #95C11E;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all ease 0.5s;
+    z-index: 9;
+}
+
+#content button:hover{
+    background-color: #95C11E;
+    color: #000;
+    font-weight: 600;
+}
+
 #page3{
     height: 100vh;
     width: 100%;
