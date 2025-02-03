@@ -1,6 +1,6 @@
 # Sidcup Family Golf Clone
 
-![Project Preview](https://sidcup-family-golf-clone-project.vercel.app/)
+**[Project Preview](https://sidcup-family-golf-clone-project.vercel.app/)**
 
 ## 📌 Overview
 This project is a **clone** of the official **Sidcup Family Golf** website, built to practice and enhance front-end development skills using **HTML, CSS, JavaScript, and GSAP animations**.
