@@ -32,11 +32,11 @@ Sidcup-family-golf-clone/
 ## 🎯 How to Run the Project
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/priyankasinghbliss/Sidcup-family-golf-clone-project.git
+   git clone https://github.com/priyankasinghbliss/Sidcup-family-golf-project.git
    ```
 2. **Navigate to the Project Directory**
    ```bash
-   cd Sidcup-family-golf-clone-project
+   cd Sidcup-family-golf-project
    ```
 3. **Open `index.html` in a Browser**
 
